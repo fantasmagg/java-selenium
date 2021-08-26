@@ -1,0 +1,49 @@
+{
+
+  "LogofromRecord": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//body/div[@id='__next']/main[1]/div[2]/div[2]/a[1]/*[1]"
+  },
+
+
+  "Title": {
+
+    "GetFieldBy": "Xpath",
+    "ValueToFind":  "//h2[contains(text(),'Regístrate gratis para escuchar')]"
+  },
+
+  "Email": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='email']"
+  },
+  "confirm":{
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='confirm']"
+  },
+  "Mes de nacimiento":{
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//select[@id='month']"
+  },
+  "Email error": {
+    "GetFieldBy": "xpath",
+    "ValueToFind":"//body/div[@id='__next']/main[1]/div[2]/form[1]/div[1]/div[2]/span[1]"
+  },
+  "GeneroM": {
+    "GetFieldBy": "xpath",
+    "ValueToFind":"//body/div[@id='__next']/main[1]/div[2]/form[1]/div[6]/div[2]/label[1]/span[1]"
+  },
+  "GeneroF": {
+    "GetFieldBy": "xpath",
+    "ValueToFind":"//*[@id=\"__next\"]/main/div[2]/form/div[6]/div[2]/label[2]/input"
+  },
+  "GeneroBinario": {
+    "GetFieldBy": "xpath",
+    "ValueToFind":"//body/div[@id='__next']/main[1]/div[2]/form[1]/div[6]/div[2]/label[3]/input[1]"
+  },
+  "check": {
+    "GetFieldBy": "xpath",
+    "ValueToFind":"//body/div[@id='__next']/main[1]/div[2]/form[1]/div[7]/label[1]/span[1]"
+  }
+
+
+}

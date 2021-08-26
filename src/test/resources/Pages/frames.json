@@ -1,0 +1,46 @@
+{
+
+  "Frame1": {
+
+    "GetFieldBy": "id",
+    "ValueToFind": "frame1"
+
+  },
+  "Frame2": {
+
+    "GetFieldBy": "id",
+    "ValueToFind": "frame2"
+
+  },
+
+  "element Frame1 input": {
+
+    "GetFieldBy": "xpath",
+    "ValueToFind": "/html/body/input"
+
+  },
+  "Frame2 selector": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//*[@id=\"animals\"]"
+
+  },
+  "Frame3": {
+
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//*[@id=\"frame3\"]"
+
+  },
+  "Frame alert": {
+
+    "GetFieldBy": "id",
+    "ValueToFind": "iframeResult"
+
+  },
+  "but Alert": {
+
+    "GetFieldBy": "xpath",
+    "ValueToFind": "/html[1]/body[1]/button[1]"
+
+  }
+
+}

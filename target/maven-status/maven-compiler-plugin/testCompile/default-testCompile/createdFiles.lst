@@ -1,0 +1,6 @@
+StepDefinitions\TestRunner.class
+Functions\SeleniumFunctions.class
+Functions\WebDriverFactory.class
+StepDefinitions\StepsDefinitions.class
+Functions\CreateDriver.class
+StepDefinitions\Hooks.class

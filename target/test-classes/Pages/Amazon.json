@@ -1,0 +1,22 @@
+{
+
+  "cuenta": {
+    "GetFieldBy": "xpath",
+    "ValueToFind":"//header/div[@id='navbar']/div[@id='nav-belt']/div[3]/div[1]/a[2]/span[1]/span[1]"
+  },
+  "Mi cuenta": {
+    "GetFieldBy": "xpath",
+    "ValueToFind":"//header/div[@id='navbar']/div[@id='nav-flyout-anchor']/div[@id='nav-flyout-accountList']/div[2]/div[1]/div[3]/a[1]/span[1]"
+  },
+  "wait": {
+    "GetFieldBy": "xpath",
+    "ValueToFind":"//body/div[@id='a-page']/div[2]/div[1]/div[2]/div[1]/a[1]/div[1]/div[1]"
+  },
+  "sobre amazon": {
+    "GetFieldBy": "xpath",
+    "ValueToFind":"//a[contains(text(),'Acerca de Amazon')]"
+  }
+
+
+
+}
